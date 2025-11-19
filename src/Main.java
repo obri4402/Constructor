@@ -10,9 +10,15 @@ public class Main {
 
         Student student1 = new Student("Aubrey", 23, 2.5);
         Student student2 = new Student("Nichole", 24, 1.5);
+        Student student3 = new Student("Joji", 21, 1.75);
 
-        System.out.println(student1.name);
-        System.out.println(student2.name);
+        System.out.println(student1.name + " " + student1.age + " " + student1.gpa + " " + student1.isEnrolled);
+
+        System.out.print(student2.name);
+        System.out.print(" " + student2.age);
+        System.out.print(" " + student2.gpa);
+        System.out.print(" " + student2.isEnrolled);
+
 
     }
 }
