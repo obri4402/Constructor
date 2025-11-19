@@ -14,10 +14,16 @@ public class Main {
 
         System.out.println(student1.name + " " + student1.age + " " + student1.gpa + " " + student1.isEnrolled);
 
-        System.out.print(student2.name);
-        System.out.print(" " + student2.age);
-        System.out.print(" " + student2.gpa);
-        System.out.print(" " + student2.isEnrolled);
+        System.out.print("\n");
+
+        System.out.print("Name: " + student2.name + "\n");
+        System.out.print("Age: " + student2.age + "\n");
+        System.out.print("GPA: " + student2.gpa + "\n");
+        System.out.print("Enrolled: " + student2.isEnrolled);
+
+        System.out.println("\n");
+        student1.study();
+        student3.study();
 
 
     }

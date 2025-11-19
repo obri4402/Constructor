@@ -12,7 +12,7 @@ public class Student {
         this.isEnrolled = true;
     }
     void study (){
-        System.out.println(this.name + " ");
+        System.out.println(this.name + " is studying");
 
     }
 }
