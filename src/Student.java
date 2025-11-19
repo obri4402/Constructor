@@ -5,9 +5,9 @@ public class Student {
     double gpa;
     boolean isEnrolled;
 
-    Student(String name, int age, double gpa){
-        this.name = name;
-        this.age = age;
-        this.gpa = gpa;
+    Student(String a, int b, double c){
+        this.name = a;
+        this.age = b;
+        this.gpa = c;
     }
 }
